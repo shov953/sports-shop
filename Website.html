@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Спортивний магазин: Командні види спорту, Фітнес, Активний відпочинок, Туризм, Велоспорт, Бренди. Все для спорту і активного життя!">
+    <title>Спортивний Магазин</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header, footer {
+            background-color: #212121;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        nav {
+            margin: 0 auto;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #424242;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .content-section {
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin: 10px 0 10px 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #424242;
+            color: #fff;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .video-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        iframe {
+            border: none;
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ласкаво просимо до спортивного магазину!</h1>
+        <p>Все, що вам потрібно для спорту та активного відпочинку в одному місці.</p>
+    </header>
+
+    <nav>
+        <a href="#">Головна</a>
+        <a href="#">Командні види спорту</a>
+        <a href="#">Фітнес та тренування</a>
+        <a href="#">Активний відпочинок</a>
+        <a href="#">Бренди</a>
+        <a href="#">Контакти</a>
+    </nav>
+
+    <div class="container">
+        <!-- Розділ з основною інформацією -->
+        <section class="content-section">
+            <h2>Популярні категорії товарів</h2>
+            <p>У нашому магазині ви знайдете широкий асортимент товарів для різних видів спорту та активного відпочинку. Ми спеціалізуємося на таких категоріях:</p>
+            <ul>
+                <li>Футбол: м'ячі, форма, взуття та аксесуари.</li>
+                <li>Фітнес: тренажери, еспандери, килимки для йоги.</li>
+                <li>Туризм: намети, рюкзаки, спальники.</li>
+                <li>Велоспорт: велосипеди, шоломи, одяг для велоспорту.</li>
+            </ul>
+        </section>
+
+        <!-- Розділ з таблицею -->
+        <section class="content-section">
+            <h2>Рейтинг популярних брендів</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Бренд</th>
+                        <th>Країна</th>
+                        <th>Популярні товари</th>
+                        <th>Рейтинг</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nike</td>
+                        <td>США</td>
+                        <td>Спортивне взуття, одяг</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Adidas</td>
+                        <td>Німеччина</td>
+                        <td>Спортивна форма, взуття</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Puma</td>
+                        <td>Німеччина</td>
+                        <td>Спортивний одяг, аксесуари</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Under Armour</td>
+                        <td>США</td>
+                        <td>Спортивне взуття, захист</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Розділ із зображенням -->
+        <section class="content-section image-container">
+            <h2>Асортимент нашого магазину</h2>
+            <img src="D:\Web- технології\58.jpg" alt="Спортивний магазин - Асортимент товарів" title="Асортимент товарів у нашому магазині">
+        </section>
+
+        <!-- Розділ із відео -->
+        <section class="content-section video-container">
+            <h2>Відео про наші товари</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uat9poGkqVo?si=zp5IU6WeJiPezwCs" title="Огляд спортивних товарів" allowfullscreen></iframe>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Спортивний Магазин. Усі права захищені. | Контакти: +38 (044) 123-45-67 | Email: info@sportshop.com</p>
+    </footer>
+
+</body>
+</html>
